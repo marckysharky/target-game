@@ -24,7 +24,7 @@ class Game
                        canvas_size: canvas.size,
                        target_size: canvas.targets)
 
-    STDOUT.puts "COMPLETE - #{@finished} seconds - #{score}"
+    STDOUT.puts "Completed in #{@finished} seconds, score is #{score}"
   end
 
   def quit
